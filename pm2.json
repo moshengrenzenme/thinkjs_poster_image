@@ -1,0 +1,15 @@
+{
+  "apps": [{
+    "name": "thinkjs_image",
+    "script": "production.js",
+    "cwd": "/media/feng/数据/test_project/thinkjs_image",
+    "exec_mode": "fork",
+    "max_memory_restart": "1G",
+    "autorestart": true,
+    "node_args": [],
+    "args": [],
+    "env": {
+      
+    }
+  }]
+}
