@@ -73,6 +73,6 @@ module.exports = class extends Base {
         if (newWidth) {
             img.resize(newWidth, newHeight)
         }
-        img.save(`imgs/1.jpg`, 'jpg', { quality: 70 }) //保存图片并设置质量
+        img.save(`imgs/${think.uuid()}`, 'jpg', { quality: 70 }) //保存图片并设置质量
     }
 };
